@@ -41,4 +41,15 @@ FORK
 
 GIT
     Git é um sistema de controle de versão distribuído que permite que desenvolvedores rastreiem mudanças no código-fonte        durante o desenvolvimento de um projeto. Ele facilita a colaboração entre equipes, possibilitando que vários                 desenvolvedores trabalhem no mesmo projeto de forma simultânea, sem perder ou sobrescrever as alterações feitas por          outros. Git é amplamente utilizado por desenvolvedores, especialmente em projetos de software, devido à sua robustez e       flexibilidade.
+
+COMANDOS GIT
+    ls = listar os arquivos
+    git status = mostrar as alterações
+    git add . = add as alterações 
+    git add nome do arquivo = para add só o arquivo
+    git commit -m "msg" = para subir para o arquivo local
+    git push origin main = para subir para o arquivo remoto pela primeira vez
+    git push = para subir para o arquivo remoto dps da primeira vez 
+    git -f origin main = se não pegar o push
+
     
