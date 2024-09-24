@@ -1,7 +1,7 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')({sigint:true});
 
-var Nota1 = parseFloat(prompt("digite a primeira nota: "))
-var Nota2 = parseFloat(prompt("digite a segunda nota: "))
-var Nota3 = parseFloat(prompt("digite a terceira nota: "))
-var media = ((Nota1 + Nota2 + Nota3) / 3).toFixed(2)
-console.log(`O resultado da média é ${media}`)
+const Nota1 = parseFloat(prompt("primeira nota: "));
+const Nota2 = parseFloat(prompt("segunda nota: "));
+const Nota3 = parseFloat(prompt("terceira nota: "));
+const Media = ((Nota1 + Nota2 + Nota3) / 3).toFixed(2)
+console.log(`O resultado da média é ${Media}`);
